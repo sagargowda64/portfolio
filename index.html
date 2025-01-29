@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7fb471932.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+   <div class="container">
+     <nav>
+        <img src="images/mylogo2.jpg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li> 
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#id">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+       <div class="header-text" >
+           <p><strong>Full Stack Developer</strong></p>
+           <h1>Hi,I'm <span1><strong>S</strong></span1>agar<span1>G</span1>owda<br>From <span2>H</span2>assan</h1>
+       </div> 
+    </div>
+ </div>
+ <!-----------About-------->
+ <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="images/sagu3.jpg">
+            </div>
+                <div class="about-co-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>I am a skilled Full Stack Java Developer with expertise in Java and frontend technologies like React and Angular. I have experience with databases such as MySQL and MongoDB, along with cloud platforms like AWS.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experince')">Internships</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming & Development Skills</span><br>⮞  Java ,Python ,C ,C++</li>
+                            <ul> ⮞  Mobile app development (Android)</ul>
+                            <li><span>Data Structures & Algorithms (DSA)</span><br> Graphs, trees, stacks, queues, and linked lists                            </li>
+                            <li><span>Database Management</span><br>SQL (MySQL)</li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="Experince">
+                        <ul>
+                            <li><span>2025-26</span><br> Full Stack Java Developer   By,Qspider</li>
+                            <li><span>2024-25</span><br> Artificial Intelligence and Machine Learning   By,Rooman</li>
+                            <li><span>2023-24</span><br>Amazon Web Services (Aws) and Cybersecurity   By,TechByHeart</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>CS&E in KVG College OF Engg</li>
+                            <li><span>2021</span><br>PUC in BGS Hassan</li>
+                            <li><span>2019</span><br>SSLC in MDRS Nuggehalli</li>
+                         
+                        
+                        </ul>
+
+                    </div>
+                </div>   
+
+        </div>
+    </div>
+ </div>
+
+       <!-----------Services-------->
+   <div id="services">
+         <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I offer comprehensive UI/UX design services, including user research, wireframing, prototyping, and usability testing. I create intuitive, visually appealing designs that enhance user experiences and meet business goals, ensuring your product is both functional and engaging.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I provide expert web design services, focusing on creating visually stunning and responsive websites. I handle everything from layout design to coding, ensuring a seamless, user-friendly experience that aligns with your brand’s goals and engages your audience effectively.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>provide expert app design services, from initial concept to final product. My approach includes user research, wireframing, prototyping, and testing to create intuitive, visually appealing, and user-friendly mobile apps that meet your goals and stand out in the market.</p>
+                    <a href="#portfolio">Learn More</a>
+                </div>
+            </div>
+         </div>
+   </div>
+              
+<!-----------portfolio------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.JPG">
+                <div class="layer">
+                    <h3>Yoga App</h3>
+                    <p>A Yoga App helps users practice yoga anytime and anywhere by providing guided sessions, tutorials, and personalized workout plans. It includes features like video instructions, a library of poses with benefits, meditation sessions, and progress tracking.The daily The goal is to promote overall well-being through accessible yoga practices.</p>
+                    <a href="https://github.com/sagargowda64/yoga"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mtp.jpg">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>A Portfolio Website showcases your projects, skills, and professional experience in an interactive way. It serves as an online resume, making it easier for recruiters and clients to assess your expertise.</p>
+                    <a href="https://open.spotify.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>For online shopping app development, focus on intuitive navigation, seamless checkout, clear product displays, personalized recommendations, and secure payment options to enhance user experience and drive conversions</p>
+                    <a href="https://www.flipkart.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+       <a href="https://github.com/sagargowda64" class="btn">See More work</a>
+
+    </div>
+</div>
+
+<!-----------Contact------->
+
+
+      <div id="id">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sagargowdanb64@gmail.com</p> 
+                    <p><i class="fa-solid fa-square-phone"></i> 9111324932</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/_sagar_gowda____?igsh=MTI1cnJpcHZnMnQwag=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/sagar_wda?s=08"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/sagargowda64"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/sagarnewresume1.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+         <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Sagargowda.</p>
+         </div>
+       </div>
+
+
+ <script>
+
+     var tablinks= document.getElementsByClassName("tab-links");
+     var tabcontents= document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+     }
+ </script>
+ <script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwQDcGZbOSMVqQteOwSO2q__wlDrruqou_64xFvv9iJV4wWd6yujOV5Iu1AF3EYOkeN/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
